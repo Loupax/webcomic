@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a5034fb-24ed-41c5-85de-426d9e03022d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layouts/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0121.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0124.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0125.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0126.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0127.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/comics/courtroom/IMG_0129.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/comics/courtroom.md" afterPath="$PROJECT_DIR$/content/comics/courtroom.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/comics/growth-mindset.md" afterPath="$PROJECT_DIR$/content/comics/growth-mindset.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/index.html" afterPath="$PROJECT_DIR$/layouts/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +21,8 @@
       <file leaf-file-name="config.toml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -50,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="285">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paginator.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="paginator.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/minimal/layouts/partials/paginator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -136,6 +124,7 @@
       <find>post</find>
       <find>jpg</find>
       <find>main&gt;</find>
+      <find>pagina</find>
     </findStrings>
     <replaceStrings>
       <replace>png</replace>
@@ -168,8 +157,8 @@
         <option value="$PROJECT_DIR$/content/comics/growth-mindset.md" />
         <option value="$PROJECT_DIR$/layouts/partials/header.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/themes/minimal/layouts/partials/paginator.html" />
+        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/layouts/index.html" />
       </list>
     </option>
@@ -660,7 +649,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="795" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -915,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/minimal/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -931,18 +912,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/minimal/layouts/partials/paginator.html">
+    <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="70" lean-forward="false" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="285">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/minimal/layouts/partials/paginator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="59" />
           <folding />
         </state>
       </provider>

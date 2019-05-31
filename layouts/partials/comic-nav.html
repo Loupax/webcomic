@@ -1,0 +1,10 @@
+{{ with .PrevInSection }}
+<a class="icon pages-icon" href="{{ .Permalink }}" rel="prev">
+    <i class="fa fa-arrow-left"></i>
+</a>
+{{ end }}
+{{ with .NextInSection }}
+<a class="icon pages-icon" href="{{ .Permalink }}" rel="next">
+    <i class="fa fa-arrow-right"></i>
+</a>
+{{ end }}

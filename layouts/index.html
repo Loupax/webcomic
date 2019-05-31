@@ -2,19 +2,20 @@
 
 
 <main>
-    {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
+    <!-- {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
 
     <h1>{{ .Site.Title }}</h1>
 
-    <h2>{{ markdownify .Site.Params.Description }}</h2>
-
-    {{ $paginator := .Paginate (where .Pages "Type" "comics") }}
-    {{ partial "paginator.html" . }}
+    <h2>{{ markdownify .Site.Params.Description }}</h2> -->
+    
+    {{ $paginator := .Paginate (where .Pages "Type" "comics") 1 }}
     {{ range $paginator.Pages }}
     <h1>{{ .Title }}</h1>
+    {{ partial "comic-nav.html" . }}
     {{ .Content }}
+    {{ partial "comic-nav.html" . }}
     {{ end }}
-    {{ partial "paginator.html" . }}
+    
 </main>
 
 {{ partial "footer" . }}
