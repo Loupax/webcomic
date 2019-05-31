@@ -1,10 +1,19 @@
+{{ $current := .Permalink}}
+{{ with index (first 1 (where .Site.Pages.ByDate "Type" "comics")) 0 }}
+<a class="icon pages-icon" href="{{ cond (eq .Permalink $current) "#" .Permalink }}" rel="first"><i class="fa fa-angle-double-left"></i></a>
+{{ end }}
 {{ with .PrevInSection }}
-<a class="icon pages-icon" href="{{ .Permalink }}" rel="prev">
-    <i class="fa fa-arrow-left"></i>
-</a>
+<a class="icon pages-icon" href="{{ .Permalink }}" rel="prev"><i class="fa fa-arrow-left"></i> Prev</a>
+{{ end }}
+{{ if not .PrevInSection }}
+<a class="icon pages-icon" href="#" rel="prev"><i class="fa fa-arrow-left"></i> Prev</a>
 {{ end }}
 {{ with .NextInSection }}
-<a class="icon pages-icon" href="{{ .Permalink }}" rel="next">
-    <i class="fa fa-arrow-right"></i>
-</a>
+<a class="icon pages-icon" href="{{ .Permalink }}" rel="next">Next <i class="fa fa-arrow-right"></i></a>
+{{ end }}
+{{ if not .NextInSection }}
+<a class="icon pages-icon" href="#" rel="next">Next <i class="fa fa-arrow-right"></i></a>
+{{ end }}
+{{ with index (last 1 (where .Site.Pages.ByDate "Type" "comics")) 0 }}
+<a class="icon pages-icon" href="{{cond (eq .Permalink $current) "#" .Permalink }}" rel="last"><i class="fa fa-angle-double-right"></i></a>
 {{ end }}
